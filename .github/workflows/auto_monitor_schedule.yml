@@ -14,7 +14,7 @@ jobs:
     env:
       NJU_USERNAME: ${{ secrets.NJU_USERNAME }}
       NJU_PASSWORD: ${{ secrets.NJU_PASSWORD }}
-      PYTHONUTF8: '1'
+      PYTHONUTF8: '1' 
       PYTHONIOENCODING: 'utf-8'
       EMAIL_SMTP_HOST: ${{ secrets.EMAIL_SMTP_HOST }}
       EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT }}
