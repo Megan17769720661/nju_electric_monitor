@@ -113,5 +113,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: nju_electric_monitor-logs-${{ github.run_id }}
-        path: |
+        path: | 
           logs/**
