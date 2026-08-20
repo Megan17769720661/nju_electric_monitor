@@ -115,3 +115,4 @@ jobs:
         name: nju_electric_monitor-logs-${{ github.run_id }}
         path: | 
           logs/**
+          
